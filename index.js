@@ -264,4 +264,4 @@ app.delete("/delnote", async (req, res) => {
 })
 //redirect to desired page
 //don't forget to set Session["Back"] back to null
-app.listen(3000);
+app.listen(process.env.PORT);
