@@ -152,7 +152,7 @@ app.post("/login", async (req, res) => {
 
 app.get("/getnote", auth, (req, res) => {
 
-    res.sendFile("C:/Users/rishi/Desktop/To do list/public/notes.html");
+    res.sendFile(`${public_path}/notes.html`);
 })
 
 
