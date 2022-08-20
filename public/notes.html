@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="card.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
+        <title>Document</title>
+</head>
+
+<body>
+  
+    <section class="vh-100" style="background-image: linear-gradient(to top right, #7EF8FA, #EEC0C6)">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+      
+              <div class="card" style="border-radius: 15px;">
+                <div class="card-body p-5">
+      
+                  <h6 class="mb-3"> Todo List</h6>
+                  <div class="d-flex justify-content-center align-items-center mb-4" >
+    
+                    <input type="text" id="inputtext"class="form-control form-control-lg" >
+                             <button class="btn btn-primary btn-lg ms-2" onclick="addtodb()">Add</button><button onClick="gotologout()" class="btn btn-danger btn-lg ms-3" onclick="addtodb()">LogOut</button>
+                  </div>
+                  
+      
+                  <ul class="list-group mb-0" id="maincontainer" > 
+                    
+                   
+        
+                  </ul>
+      
+                </div>
+              </div>
+      
+            </div>
+          </div>
+        </div>
+      </section>
+
+</body>
+<script src="./notes.js"></script>
+</html>
